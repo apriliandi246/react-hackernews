@@ -1,0 +1,161 @@
+.container {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.data-container {
+   background-color: #f6f6ef;
+   padding: 27px 14px;
+}
+
+.data__title {
+   text-decoration: none;
+   letter-spacing: 0.5px;
+   font-size: 1.2rem;
+   margin-right: 9px;
+   line-height: 1.1;
+   color: black;
+}
+
+.data {
+   margin-bottom: 30px;
+}
+
+.data span {
+   display: inline-block;
+   font-size: 0.9rem;
+   color: #889996;
+}
+
+.data__title:hover {
+   text-decoration: underline;
+}
+
+.data__points {
+   margin-top: 10px;
+   margin-right: 8px;
+}
+
+.data__time-ago {
+   margin: 0 8px 0 8px;
+}
+
+.spinner-2::before {
+   top: 50%;
+   left: 50%;
+   width: 60px;
+   content: "";
+   height: 60px;
+   margin-top: -30px;
+   margin-left: -30px;
+   position: absolute;
+   border-radius: 100%;
+   box-sizing: border-box;
+   border: 5px solid #cec6c5;
+   border-top-color: #38444d;
+   border-bottom-color: #38444d;
+   animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.navbar {
+   justify-content: space-between;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #ef482a;
+   align-items: center;
+   padding: 10px;
+   display: flex;
+}
+
+.navbar__brand {
+   text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.3);
+   font-family: monospace;
+   text-decoration: none;
+   letter-spacing: 1px;
+   margin-bottom: 15px;
+   font-weight: bold;
+   font-size: 1.5rem;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+ul {
+   width: 60%;
+   display: flex;
+   color: #ffffff;
+   cursor: pointer;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.link-menu {
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: bold;
+   letter-spacing: 1.3px;
+   font-family: monospace;
+   text-decoration: none;
+}
+
+li:hover {
+   text-decoration: underline;
+}
+
+@media screen and (min-width: 940px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media screen and (min-width: 1020px) {
+   .container {
+      width: 85%;
+   }
+}
+
+@media screen and (min-width: 1270px) {
+   .container {
+      width: 76%;
+   }
+}
+
+@media screen and (min-width: 1570px) {
+   .container {
+      width: 70%;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+   .navbar {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   .navbar__brand {
+      margin-bottom: 0;
+   }
+
+   ul {
+      width: 40%;
+      justify-content: space-around;
+   }
+}
+
+@media screen and (min-width: 1400px) {
+   ul {
+      width: 35%;
+   }
+}
+
+@media screen and (min-width: 1700px) {
+   ul {
+      width: 27%;
+   }
+}
