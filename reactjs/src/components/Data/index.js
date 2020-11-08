@@ -11,8 +11,11 @@ export default function Data({ data }) {
                >
                   {eachData.title}
                </a>
+
                <span className="data__url">{eachData.domain}</span>
+
                <br />
+
                <span className="data__points">{eachData.points} points |</span>
                <span className="data__user">by {eachData.user} |</span>
                <span className="data__time-ago">{eachData.time_ago} |</span>
