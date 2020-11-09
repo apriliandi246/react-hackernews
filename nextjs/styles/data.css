@@ -1,0 +1,36 @@
+.data-container {
+   background-color: #f6f6ef;
+   padding: 27px 14px;
+}
+
+.data__title {
+   text-decoration: none;
+   letter-spacing: 0.5px;
+   font-size: 1.2rem;
+   margin-right: 9px;
+   line-height: 1.1;
+   color: black;
+}
+
+.data {
+   margin-bottom: 30px;
+}
+
+.data span {
+   display: inline-block;
+   font-size: 0.9rem;
+   color: #889996;
+}
+
+.data__title:hover {
+   text-decoration: underline;
+}
+
+.data__points {
+   margin-top: 10px;
+   margin-right: 8px;
+}
+
+.data__time-ago {
+   margin: 0 8px 0 8px;
+}

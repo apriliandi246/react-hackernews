@@ -1,0 +1,29 @@
+/* container */
+.container {
+   width: 100%;
+   margin: 0 auto;
+}
+
+@media screen and (min-width: 940px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media screen and (min-width: 1020px) {
+   .container {
+      width: 85%;
+   }
+}
+
+@media screen and (min-width: 1270px) {
+   .container {
+      width: 76%;
+   }
+}
+
+@media screen and (min-width: 1570px) {
+   .container {
+      width: 70%;
+   }
+}
